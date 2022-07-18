@@ -1,0 +1,232 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Roboto:wght@900&family=Teko:wght@700&display=swap');
+ 
+:root{
+    --primary:rgb(0, 0, 0, 5);
+    --secondary:rgb(0, 0, 0, 0.3);}
+
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;}
+
+      html{scroll-behavior: smooth;}
+         
+
+section {background:linear-gradient(180deg, var(--primary), var(--secondary)),
+         url(Images/NAVY.jpeg) no-repeat;
+         background-size: cover;
+         background-position: center;
+         width: 100%;
+         height: 100%;
+         min-height: 100vh;}
+
+  
+                 header{position: relative;
+                        max-width: 1200px;
+                        margin:20px auto;
+                        padding: 10px;
+                        background: transparent;
+                        box-sizing: border-box;
+                        border-radius: 15px;
+                        box-shadow: rgba(0, 0, 0, 0.3);}
+
+                        .logo{width: 14s0px;
+                              height: 50px;
+                              line-height:65px;
+                              padding: 110 20px;
+                              text-align: center;
+                              box-sizing:border-box;
+                              float:left;}
+
+                              nav {float: right;}
+
+                              .clearf{clear: both;}
+
+                              nav ul{ margin: 0;
+                                      padding:0;
+                                      display:flex;
+                                      ;}
+
+                                      nav ul li{list-style: none;
+                                                }
+
+                                                nav ul li a{display:block;
+                                                            margin:10px 0;
+                                                            padding: 10px 20px;
+                                                            text-decoration: none;
+                                                            color: rgb(255, 255, 255);}
+                                                            
+                                                            nav ul li a.active{background-color: rgb(255, 102, 0);
+                                                                               cursor: pointer;}
+                                                            nav ul li a:hover{ background-color: rgb(255, 102, 0);
+                                                                               cursor: pointer;
+                                                                               transition: all ease 0.3s;
+                                                                               box-shadow: 2px 2px 30px rgba(255, 94, 0, 0.7) ;}
+
+    @media(max-width: 1200px){
+       
+       header {margin: 20px;}
+      }
+      @media(max-width: 768px){
+       
+ .menubar  {display: block;
+            width: 40px;
+            height: 40px;
+            margin: 10px;
+            text-align: center;
+            font-size: 30px;
+            background: grey;
+            color: white;
+            float: right;
+            cursor:pointer;}
+  .menubar:before {content: ' \f0c9';
+                    line-height: 40px;}
+                    nav{ display: none;}
+     .menubar.active {content: '';
+                      line-height: 40px;}
+                      nav{ display: none;}                
+       }             
+                       
+        
+                       .about{position:relative;
+                              text-align: center;
+                              align-items: center;
+                              letter-spacing: 2px;
+                               margin: 105px;
+                               left: 15px;
+                               padding: 30px 0px;
+                               }
+             h4{color:rgb(139, 139, 139)}
+
+             hr{margin-top: 20px;
+                background-color: rgb(255, 102, 0);}
+
+             #h4-2 {color: white;
+                    margin-top: 30px;}
+                           .about h1{
+                              position:relative;
+                              color:rgb(255, 102, 0);
+                               align-items: center;
+                               font-size: 50px;}   
+
+                               .about p{color: white;
+                                        font-size: 20px;
+                                        padding: 0px;
+                                        margin-top:15px;
+                              }
+                              
+                              .btn{background-color: rgb(43, 8, 0);
+                                color:white;
+                                text-decoration: none;
+                                border: 2px solid transparent;
+                                padding:5px ;
+                                border-radius: 30px;
+                                transition: 0.3s ease;
+                                margin-top: 18px}
+                        
+                                .btn:hover{transform: scale(1.2);
+                                           background-color: rgb(255, 102, 0);
+                                           cursor: pointer;}
+                        
+                                           .container{width: 100%;
+                                            height: 80vh;
+                                            background-color: rgb(255, 94, 0);
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;}
+                            
+                                            .box{width: 260px ;
+                                                 height: 360px;
+                                                 margin: 10px;
+                                                 justify-content: center;
+                                                 text-align: center;
+                                                 align-items: center;
+                                                 border-radius: 15px;
+                                                 background-color: rgba(0, 153, 255, 0.3);
+                                                 box-shadow: 4px 11px 14px rgba(4, 0, 66, 0.6); }
+                            
+                                           .Movie-jpeg{height: 180px;
+                                                       width: 100%;
+                                                       max-height: 100%;
+                                                       border-radius: 10px 10px 0px 0px;}
+                                                                      
+
+                              
+                            
+                                     
+                            
+                                                     .watch-btn{width:120px ;
+                                                               height: 30px;
+                                                               justify-content: center;
+                                                               align-items: center;
+                                                               background-color: rgb(148, 54, 0);
+                                                               color: white ;
+                                                               font-weight: 700;
+                                                               border-radius: 10px;
+                                                               box-shadow:2px 2px 30px rgba(0, 0, 0, 0.7) ;
+                                                               padding: 5px 5px;
+                                                               display: block;
+                                                               text-align: center;
+                                                               margin: 10px 62px;}
+                 
+                                                               .watch-btn:hover{background-color:rgb(255, 94, 0);
+                                                                              box-shadow:2px 2px 30px rgba(255, 94, 0, 0.7) ;
+                                                                              transition: all ease 0.3s;
+                                                                              cursor: pointer;}
+
+                                                                              .contact{position:relative;
+                                                                                display: flex;
+                                                                                      background-position: center;
+                                                                                      background-size: cover;
+                                                                                     background-color: black;
+                                                                                     height:30vh;
+                                                                                     color:white;
+                                                                              }
+
+                                                                       .contact p {position: relative;
+                                                                                   text-align: center;
+                                                                                   margin: 50px 280px;
+                                                                                   align-items: center;
+                                                                                   justify-content: center;}
+
+                                                                                .contact .media-icons{position: relative;
+                                                                                    max-width: 650px;
+                                                                                    margin: 45px -670px; 
+                                                                                    font-size: 30px;}
+
+                                                                  .contact p{color: white;
+                                                                    text-decoration: none;
+                                                                    font-weight: bold;
+                                                                    font-size: large;
+                                                                    }
+
+                                                             .contact a p:hover{ color:rgb(255, 95, 31);
+                                                                               transition: 0.3s ease;
+                                                                               cursor: pointer;}       
+                                                  
+                                                  .fa-facebook{color:blue;}
+                                                  .fa-twitter{color:rgb(0, 174, 255)}
+                                                  .fa-youtube{color: red;}
+                                                  
+                                                  .fa-facebook:hover{position: relative;
+                                                                     max-width:650px;
+                                                                     font-size: 35px;
+                                                                     cursor: pointer;
+                                                                     }
+                                                  
+                                                                     .fa-twitter:hover{position: relative;
+                                                                      max-width:650px;
+                                                                      font-size: 35px;
+                                                                      cursor: pointer;}
+                                                  
+                                                                      .fa-youtube:hover{position: relative;
+                                                                          max-width:650px;
+                                                                          font-size: 35px;
+                                                                          cursor: pointer;}
+                                                  
+
+                                          
+
+                                                
