@@ -102,7 +102,7 @@
                   .Org{height: 210px;
                        max-height: 100%;}
                                                               
-                       .buy-btn{width:90px ;
+                       .watch-btn{width:90px ;
                                 height: 30px;
                                 display: flex;
                                 justify-content: center;
@@ -114,7 +114,7 @@
                                  box-shadow:2px 2px 30px rgba(0, 0, 0, 0.7) ;
                                  margin: 10px 10px;}
                                                           
- .buy-btn:hover{background-color:rgb(255, 94, 0);
+  .watch-btn:hover{background-color:rgb(255, 94, 0);
                 box-shadow:2px 2px 30px rgba(255, 94, 0, 0.7) ;
                 transition: all ease 0.3s;}     
                                                                                                             
