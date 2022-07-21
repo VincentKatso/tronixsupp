@@ -15,7 +15,7 @@
          
 
 section {background:linear-gradient(180deg, var(--primary), var(--secondary)),
-         url(Images/NAVY.jpeg) no-repeat;
+         url(images/NAVY.jpeg) no-repeat;
          background-size: cover;
          background-position: center;
          width: 100%;
@@ -177,7 +177,7 @@ section {background:linear-gradient(180deg, var(--primary), var(--secondary)),
                                                                               cursor: pointer;}
 
                                                                               .contact{position:relative;
-                                                                                display: flex;
+                                                                                       display: flex;
                                                                                       background-position: center;
                                                                                       background-size: cover;
                                                                                      background-color: black;
